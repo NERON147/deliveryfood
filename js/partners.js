@@ -1,4 +1,4 @@
-const cardsRestaurants = document.querySelector('.cardRestaurants')
+const cardsRestaurants = document.querySelector('.cards-restaurants')
 
 const renderItems = (data) => {
     data.forEach(({ image, kitchen, name, price, products, stars, time_of_delivery }) => {
@@ -21,7 +21,7 @@ const renderItems = (data) => {
 								<div class="rating">
 									${stars}
 								</div>
-								<div class="price">${price}</div>
+								<div class="price">${price} ₽</div>
 								<div class="category">${kitchen}</div>
 							</div>
 						</div>
