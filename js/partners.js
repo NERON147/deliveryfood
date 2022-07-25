@@ -9,7 +9,6 @@ const renderItems = (data) => {
         a.classList.add('card-restaurants')
         a.dataset.products = products
 
-        console.log(a.dataset.products)
         a.innerHTML = 
            ` <img src="${image}" alt="${name}" class="card-image" />
 						<div class="card-text">
